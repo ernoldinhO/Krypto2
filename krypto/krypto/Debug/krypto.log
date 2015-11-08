@@ -1,0 +1,16 @@
+﻿Build started 2015-11-08 23:15:31.
+     1>Project "C:\Users\Erni\Desktop\Krypto\krypto\krypto\krypto.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         L:\VS\VC\bin\CL.exe /c /I"C:\Users\Erni\Desktop\Krypto\krypto\packages\openssl.v140.windesktop.msvcstl.dyn.rt-dyn.x86.1.0.2.0\build\native\include" /I"C:\Users\Erni\Desktop\Krypto\krypto\packages\zlib.v140.windesktop.msvcstl.dyn.rt-dyn.1.2.8.8\build\native\include" /IC:\Users\Erni\Desktop\bass24\c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\erni\desktop\krypto\krypto\krypto\source.cpp(206): warning C4129: 'D': unrecognized character escape sequence
+     1>c:\users\erni\desktop\krypto\krypto\krypto\source.cpp(206): warning C4129: 'm': unrecognized character escape sequence
+       Link:
+         L:\VS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Erni\Desktop\Krypto\krypto\Debug\krypto.exe" /INCREMENTAL /NOLOGO "C:\Users\Erni\Desktop\Krypto\krypto\packages\openssl.v140.windesktop.msvcstl.dyn.rt-dyn.x86.1.0.2.0\build\native\..\..\lib\native\v140\windesktop\msvcstl\dyn\rt-dyn\x86\debug\libeay32.lib" "C:\Users\Erni\Desktop\Krypto\krypto\packages\openssl.v140.windesktop.msvcstl.dyn.rt-dyn.x86.1.0.2.0\build\native\..\..\lib\native\v140\windesktop\msvcstl\dyn\rt-dyn\x86\debug\ssleay32.lib" "C:\Users\Erni\Desktop\Krypto\krypto\packages\zlib.v140.windesktop.msvcstl.dyn.rt-dyn.1.2.8.8\build\native\..\..\lib\native\v140\windesktop\msvcstl\dyn\rt-dyn\Win32\Debug\zlibd.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Erni\Desktop\Krypto\krypto\Debug\krypto.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Erni\Desktop\Krypto\krypto\Debug\krypto.lib" /MACHINE:X86 Debug\Source.obj
+     1>Source.obj : error LNK2019: unresolved external symbol __imp__PlaySoundA@12 referenced in function _main
+     1>C:\Users\Erni\Desktop\Krypto\krypto\Debug\krypto.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\Users\Erni\Desktop\Krypto\krypto\krypto\krypto.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.44
